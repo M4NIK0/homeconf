@@ -1,3 +1,6 @@
-optimus-manajer		-	Hybrid GPU swap for Nvidia (laptop)
+optimus-manager		-	Hybrid GPU swap for Nvidia (laptop)
+optimus-manager-qt	-	Qt interface to start for optimus-manager
 pavucontrol		-	Audio control panel
 yay/pamac/pacman	-	Main package manager (with pacman and pacman)
+
+If package gpg check fails on first update with pacman, run the gpg.sh script as su in manjaro.
