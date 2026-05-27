@@ -1,0 +1,5 @@
+lxappearance		-	General gtk customization
+nitrogen		-	Wallpaper change
+optimus-manager		-	Hybrid GPU swap for Nvidia (laptop)
+pavucontrol		-	Audio control panel
+yay/pamac/pacman	- 	Main package manager (with pacman and pacman)
