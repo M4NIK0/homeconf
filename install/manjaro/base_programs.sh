@@ -7,7 +7,7 @@ mkdir ~/Scripts
 yay -Syu zsh librewolf volctl pavucontrol gnome-terminal btop zip unzip
 
 # Secondary
-yay -Syu discord steam grub-customizer vlc scrot xclip
+yay -Syu discord steam grub-customizer vlc scrot xclip bleachbit pinta
 
 # OMZ install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
