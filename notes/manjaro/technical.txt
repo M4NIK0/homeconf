@@ -1,0 +1,3 @@
+optimus-manajer		-	Hybrid GPU swap for Nvidia (laptop)
+pavucontrol		-	Audio control panel
+yay/pamac/pacman	-	Main package manager (with pacman and pacman)
