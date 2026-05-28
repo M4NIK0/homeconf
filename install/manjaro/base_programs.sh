@@ -4,10 +4,13 @@ sudo pacman -Syu yay
 mkdir ~/Scripts
 
 # Main utility
-yay -Syu zsh librewolf volctl pavucontrol gnome-terminal btop zip unzip
+yay -Syu zsh librewolf-bin volctl pavucontrol gnome-terminal btop zip unzip arandr gparted
+
+# Nvidia driver
+sudo mhwd -a pci nonfree 0300
 
 # Secondary
-yay -Syu discord steam grub-customizer vlc scrot xclip bleachbit pinta
+yay -Syu discord steam grub-customizer vlc vlc-plugin-ffmpeg scrot xclip bleachbit pinta spotify
 
 # OMZ install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
