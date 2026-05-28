@@ -103,6 +103,12 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# move workspace
+bindsym $mod+Shift+Ctrl+Left move workspace to output left
+bindsym $mod+Shift+Ctrl+Right move workspace to output right
+bindsym $mod+Shift+Ctrl+Up move workspace to output up
+bindsym $mod+Shift+Ctrl+Down move workspace to output down
+
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
 #bindsym $mod+b workspace back_and_forth
@@ -421,7 +427,7 @@ mode "$mode_gaps_outer" {
 }
 
 exec --no-startup-id optimus-manager-qt
-bindsym $mod+b exec --no-startup-id firefox
+bindsym $mod+b exec --no-startup-id librewolf
 bindsym $mod+e exec --no-startup-id nemo
 bindsym $mod+Shift+s exec scrot -s "$HOME/Pictures/Screenshots/Screenshot_%Y-%m-%d_%H.%M.%S.png" -e 'xclip -selection clipboard -t image/png -i $f'
 bindsym $mod+Shift+t exec ~/Scripts/touchpad
