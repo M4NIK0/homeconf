@@ -7,8 +7,7 @@ mkdir ~/Scripts
 yay -Syu zsh librewolf-bin volctl pavucontrol gnome-terminal btop zip unzip arandr gparted
 
 # Dev
-
-yay -Syu jetbrains-toolbox docker && systemctl start docker.service systemctl enable docker.service
+yay -Syu jetbrains-toolbox docker && systemctl start docker.service systemctl enable docker.service && usermod -aG docker $USER
 
 # Nvidia driver
 sudo mhwd -a pci nonfree 0300
