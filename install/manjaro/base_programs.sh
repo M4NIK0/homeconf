@@ -15,5 +15,8 @@ sudo mhwd -a pci nonfree 0300
 # Secondary
 yay -Syu discord steam grub-customizer vlc vlc-plugin-ffmpeg scrot xclip bleachbit pinta spotify
 
+# Fix emojis on Discord
+sudo pacman -S noto-fonts-emoji
+
 # OMZ install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
