@@ -4,7 +4,7 @@ sudo pacman -Syu yay
 mkdir ~/Scripts
 
 # Main utility
-yay -Syu zsh librewolf-bin volctl pavucontrol gnome-terminal btop zip unzip arandr gparted
+yay -Syu zsh librewolf-bin volctl pavucontrol gnome-terminal btop zip unzip arandr gparted protonup-qt-bin
 
 # Dev
 yay -Syu jetbrains-toolbox docker docker-compose dbeaver && systemctl start docker.service systemctl enable docker.service && usermod -aG docker $USER
