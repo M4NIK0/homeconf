@@ -13,7 +13,7 @@ yay -Syu jetbrains-toolbox docker docker-compose dbeaver && systemctl start dock
 sudo mhwd -a pci nonfree 0300
 
 # Secondary
-yay -Syu discord steam grub-customizer vlc vlc-plugin-ffmpeg scrot xclip bleachbit pinta spotify
+yay -Syu discord steam grub-customizer vlc vlc-plugin-ffmpeg scrot xclip bleachbit pinta spotify ttf-ms-win11-auto
 
 # Fix emojis on Discord
 sudo pacman -S noto-fonts-emoji
