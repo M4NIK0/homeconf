@@ -1,0 +1,6 @@
+export PATH=/home/nyaniko/Scripts:$PATH
+alias ll="ls -l"
+alias la="ls -la"
+alias vencord='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
+alias telegram=Telegram
+alias cls=clear
