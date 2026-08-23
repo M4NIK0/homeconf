@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Copy your font (TTF) to /usr/share/fonts and then run updatefont"

@@ -1,0 +1,8 @@
+#!/bin/bash
+current=$(setxkbmap -query 2>/dev/null | grep "layout:" | awk '{print $2}')
+echo "Current layout: $current"
+if [ "$current" = "fr" ]; then
+    setxkbmap us && notify-send "Switched to QWERTY" || notify-send "Failed to switch to QWERTY"
+else
+    setxkbmap fr && notify-send "Switched to AZERTY" || notify-send "Failed to switch to AZERTY"
+fi
