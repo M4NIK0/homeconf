@@ -1,0 +1,2 @@
+UUID=<UUID>                            <path> ext4 defaults,noatime 0 1
+UUID=<UUID>                            <path> exfat defaults,rw,uid=1000,gid=1000,umask=0002  0  0
