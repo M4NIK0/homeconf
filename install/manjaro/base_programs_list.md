@@ -15,6 +15,8 @@ Those can be found and installed easily through a simple sarch using your favori
 
 - [Fusion360](https://codeberg.org/cryinkfly/Autodesk-Fusion-360-on-Linux)
     - Use proton for this one! the setup is MUCH more stable
+- [CrealityPrint](https://www.creality.com/download#sparkx)/[OrcaSlicer](https://www.orcaslicer.com/download/)
+    - Slicer for 3D printing, native linux compatible as appimage
 
 ## Graphics tools
 
