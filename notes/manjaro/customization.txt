@@ -1,2 +1,4 @@
 lxappearance		-	General gtk customization
 nitrogen		-	Wallpaper change
+powerlevel10k		-	Terminal theme (with gnome-terminal)
+Papirus Magenta folders	-	GTK icon theme
